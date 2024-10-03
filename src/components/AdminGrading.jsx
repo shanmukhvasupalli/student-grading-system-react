@@ -1,9 +1,11 @@
 import React from 'react'
 import pdf from '../assets/pdf.png'
+import AdminNavBar from './AdminNavBar'
 
 export default function AdminGrading() {
   return (
     <div>
+      <AdminNavBar/>
          <div className='max-w-[1300px] w-full h-[800px] mx-auto text-center flex flex-col justify-center border shadow-xl px-20 bg-[#E6ECF0] rounded-lg'>
             <h1 className='text-4xl font-bold '> submission JAVA FULL STACK DEVELOPMENT + MICROSERVICES</h1>
             <br/>

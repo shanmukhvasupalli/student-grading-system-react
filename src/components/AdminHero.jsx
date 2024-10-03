@@ -2,10 +2,12 @@ import React from 'react'
 import Admin from '../assets/admin.png'
 import PieChart from '../assets/Piechart.png'
 import Graph from '../assets/graph.png'
+import AdminNavBar from './AdminNavBar'
 
 export default function AdminHero() {
   return (
     <div>
+        <AdminNavBar/>
         <div className='max-w-[1200px] w-full h-[800px] mx-auto text-center flex flex-col justify-center  '>
         <div className='flex items-center justify-between'>
             <div>
